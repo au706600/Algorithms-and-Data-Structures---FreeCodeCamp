@@ -1,3 +1,5 @@
+
+// Function to update the inventory with two arrays
 function updateInventory(arr1, arr2)
 {
     if (arr1.length == 0)

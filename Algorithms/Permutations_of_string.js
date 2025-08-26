@@ -1,9 +1,11 @@
+// Function to check for repeated characters
 
 function hasRepeats(s)
 {
     return /(.)\1/.test(s); // Check for repeated characters
 }
 
+// Function to get all permutations of a string
 function getPermutations(str)
 {
     if(str.length <= 1)
@@ -25,6 +27,7 @@ function getPermutations(str)
     return perm;
 }
 
+// Function to count the number of unique permutations of a string
 function permAlone(str)
 {
     return getPermutations(str).filter(s => !hasRepeats(s)).length;

@@ -1,5 +1,6 @@
 
 
+// Function to find pairwise matches in an array
 function pairwise(arr, arg)
 {
     if(arr.length == 0)

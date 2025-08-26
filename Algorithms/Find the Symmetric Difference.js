@@ -1,4 +1,3 @@
-
 // Function to find the symmetric difference between two or more arrays
 
 function sym(...args)
